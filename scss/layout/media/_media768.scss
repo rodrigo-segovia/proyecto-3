@@ -1,0 +1,72 @@
+
+@media (max-width: 768px){
+
+    .navbar-inno li a{
+        font-size: 30px;
+    }
+    
+        .footer-links{
+            width: 30%;
+        }
+    
+    
+    
+    
+    
+    /**PAGINA SUCURSALES**/
+
+        .navbar li a{
+            font-size: 50%;
+            color: #c417c4;
+        }
+        .tmapa1{
+            color: black;
+        }
+
+        .footer-links{
+            width: 30%;
+        }
+
+
+
+        .mapas{
+            width: 80%;
+        }
+
+        .mapas iframe{
+            width: 50%;
+            height: 200px;
+        }
+
+
+        .body.suc{
+            height: 200vh;
+        }
+    
+    
+    /**PAGINA TIENDA**/
+    
+        .body-tienda{
+            min-height: 150vh;
+
+        }
+    
+    
+        .img-tienda{
+            margin: 0;
+            width: 30%;
+            gap: 30px;
+        }
+    
+        .navbar-tienda{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .navbar-tienda li a{
+            font-size: 50%;
+            color: #c417c4;
+        }
+    
+    }
+    

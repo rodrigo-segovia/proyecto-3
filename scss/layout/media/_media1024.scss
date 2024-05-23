@@ -1,0 +1,51 @@
+@media (max-width: 1024px) {
+
+    .footer-row {
+        text-align: center;
+
+    }
+
+    .footer-links {
+        width: 50%;
+        margin-bottom: 10px;
+
+    }
+
+    .temas-inno{
+        display: flex;
+        flex-wrap: wrap;
+        height: 530px;
+        width: 80%;
+    }
+
+
+    /**PAGINA SUCURSALES**/
+    .body-suc{
+        min-height: 150vh;
+    }
+    .mapas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+
+    /**PAGINA TIENDA**/
+
+    .body-tienda{
+        min-height: 170vh;
+    }
+
+    .img-tienda{
+        width: 70%;
+        margin: 0;
+
+    }
+
+
+
+
+
+}
+
+

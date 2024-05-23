@@ -44,48 +44,12 @@
 
 
 .header-suc {
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    font-size: 3em;
-
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style: none;
-        margin-bottom: 15px;
-        transition: all .3s ease;
-        list-style: none;
-
-
-
-        .navbar li a:hover {
-            color: #FFFFFF;
-            padding-left: 6px;
-            list-style: none;
-            text-decoration: dashed;
-            margin-bottom: 15px;
-            transition: all .3s ease;
-            list-style: none;
-
-
-            .navbar li a {
-                list-style: none;
-                text-decoration: black;
-                font-family: "Roboto", sans-serif;
-                color: rgba(218, 217, 238, 0.596);
-                font-size: 3rem;
-                display: block;
-
-
-            }
-
-        }
-    }
+    @extend .header-inno;
 }
 
 
-
+.header-tienda{
+    @extend .header-inno;
+}
 
 

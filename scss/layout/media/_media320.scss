@@ -1,0 +1,113 @@
+@media (max-width: 320px){
+   
+    .footer-links{
+        width: 30%;
+    }
+
+    .container{
+        max-width: 320px;
+        margin-top: auto;
+    }
+    .footer{
+        position: relative;
+    }
+    .body-inno{
+        min-height: 180vh;
+    }
+    
+    .header-inno{
+        font-size: 1em;
+        }
+    .tit-inno{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .tit-inno2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .navbar-inno{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .Innovacion{
+        width: 70%;
+    }
+
+
+
+/**PAGINA SUCURSALES**/
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar li a{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .mapas{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: none;
+    }
+    .mapas iframe{
+        width: 90%;
+    }
+    .tmapa1{
+        margin: auto;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+
+
+
+
+
+
+/**PAGINA TIENDA**/
+
+.footer-links{
+    width: 30%;
+}
+
+.container{
+    max-width: 320px;
+    margin-top: auto;
+}
+.footer{
+    position: relative;
+}
+.body-tienda{
+    min-height: 100vh;
+}
+
+.header-tienda{
+    font-size: 1em;
+    }
+
+.navbar-tienda{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-tienda{
+    max-width: 320px;
+    position: relative;
+    gap: 0;
+    width: 30%;
+    margin: 0;
+}
+
+.Innovacion-tienda{
+    width: 70%;
+}
+}
+
+
