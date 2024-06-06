@@ -3,35 +3,6 @@
   padding: 0;
   box-sizing: border-box; }
 
-.header-inno, .header-suc, .header-tienda {
-  text-align: center;
-  text-decoration: none;
-  list-style: none;
-  font-size: 3em; }
-  .header-inno .navbar-inno, .header-suc .navbar-inno, .header-tienda .navbar-inno {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
-    margin-bottom: 15px;
-    transition: all .3s ease;
-    list-style: none; }
-    .header-inno .navbar-inno .navbar-inno li a:hover, .header-suc .navbar-inno .navbar-inno li a:hover, .header-tienda .navbar-inno .navbar-inno li a:hover {
-      color: #FFFFFF;
-      padding-left: 6px;
-      list-style: none;
-      text-decoration: dashed;
-      margin-bottom: 15px;
-      transition: all .3s ease;
-      list-style: none; }
-      .header-inno .navbar-inno .navbar-inno li a:hover .navbar-inno li a, .header-suc .navbar-inno .navbar-inno li a:hover .navbar-inno li a, .header-tienda .navbar-inno .navbar-inno li a:hover .navbar-inno li a {
-        list-style: none;
-        text-decoration: black;
-        font-family: "Roboto", sans-serif;
-        color: rgba(218, 217, 238, 0.596);
-        font-size: 3rem;
-        display: block; }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -212,7 +183,7 @@
   margin: 0;
   position: relative;
   padding-bottom: 3em;
-  min-height: 130vh; }
+  min-height: 160vh; }
 
 .header-tienda {
   text-align: center;
@@ -298,7 +269,7 @@
   margin: 0;
   position: relative;
   padding-bottom: 3em;
-  min-height: 200vh; }
+  min-height: 170vh; }
 
 @media (max-width: 1024px) {
   .footer-row {
@@ -320,7 +291,7 @@
     width: 100%; }
   /**PAGINA TIENDA**/
   .body-tienda {
-    min-height: 170vh; }
+    min-height: 200vh; }
   .img-tienda {
     width: 70%;
     margin: 0; } }
@@ -341,13 +312,13 @@
   .mapas {
     width: 80%; }
   .mapas iframe {
-    width: 50%;
-    height: 200px; }
+    width: 70%;
+    height: 150px; }
   .body.suc {
-    height: 200vh; }
+    min-height: 200vh; }
   /**PAGINA TIENDA**/
   .body-tienda {
-    min-height: 150vh; }
+    min-height: 270vh; }
   .img-tienda {
     margin: 0;
     width: 30%;
@@ -370,7 +341,7 @@
     position: relative; }
   .body-inno {
     min-height: 180vh; }
-  .header-inno, .header-suc, .header-tienda {
+  .header-inno {
     font-size: 1em; }
   .tit-inno, .tit-inno2 {
     text-align: center;

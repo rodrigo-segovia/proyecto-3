@@ -9,6 +9,6 @@
 
 @mixin grid{
     display: grid;
-    
+    grid-row: inherit;
 
 }

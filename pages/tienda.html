@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 </head>
 <body class="body-tienda">
-    <header class="header-tienda">
-        <section class="logo">
-            <a href="../index.html">
-                <h1 class="titulo"> Rodteck
-                </h1>
-            </a>
-        </section>
-        <nav>
-            <ul class="navbar-tienda">
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./Innovacion.html">Innovacion</a></li>
-                <li><a href="./sucursales.html">Sucursales</a></li>
-                <li><a href="./soporte.html">Soporte</a></li>
-            </ul>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+        </div>
+  
+        <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="../index.html" class="nav-link px-2 link-secondary">Inicio</a></li>
+          <li><a href="#" class="nav-link px-2">Tienda</a></li>
+          <li><a href="./innovacion.html" class="nav-link px-2">Innovacion</a></li>
+          <li><a href="./sucursales.html" class="nav-link px-2">Sucursales</a></li>
+          <li><a href="./soporte.html" class="nav-link px-2">Soporte</a></li>
         </nav>
-    </header>
+  
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2">Iniciar sesión</button>
+          <button type="button" class="btn btn-primary">Registrarse</button>
+        </div>
+      </header>
 
 
 
@@ -32,10 +37,61 @@
         <section>
             <h2 class="tit-tienda">Nuestros cursos</h2>
         </section>
-        <section class="img-tienda">
-        <img src="https://www.superprof.com.ar/blog/wp-content/uploads/2021/10/las-partes-del-piano-980x653.jpeg" alt="piano">
-        <img src="https://moises.ai/_next/image/?url=https%3A%2F%2Fstorage.googleapis.com%2Fmoises-cms%2Fdrum_setup_d69735bec3%2Fdrum_setup_d69735bec3.jpg&w=1920&q=75" alt="bateria">
-        <img src="https://www.superprof.com.ar/blog/wp-content/uploads/2020/03/aprender-guitarra-principiante.jpg" alt="guitarra">
+        <section class="container row justify-content-between">
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.superprof.com.ar/blog/wp-content/uploads/2021/10/las-partes-del-piano-980x653.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clase de piano</h5>
+              <p class="card-text">Las mejores asesoraciones en clases de piano, con profesionales de alto nivel</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Tres meses</li>
+              <li class="list-group-item">Seis meses</li>
+              <li class="list-group-item">Un año</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Clases presensiales</a>
+              <a href="#" class="card-link">Clases virtuales</a>
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://moises.ai/_next/image/?url=https%3A%2F%2Fstorage.googleapis.com%2Fmoises-cms%2Fdrum_setup_d69735bec3%2Fdrum_setup_d69735bec3.jpg&w=1920&q=75" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clase de bateria</h5>
+              <p class="card-text">Las mejores asesoraciones en clases de bateria, con profesionales de alto nivel</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Tres meses</li>
+              <li class="list-group-item">Seis meses</li>
+              <li class="list-group-item">Un año</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Clases presensiales</a>
+              <a href="#" class="card-link">Clases virtuales</a>
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.superprof.com.ar/blog/wp-content/uploads/2020/03/aprender-guitarra-principiante.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clase de guitarra</h5>
+              <p class="card-text">Las mejores asesoraciones en clases de guitarra, con profesionales de alto nivel</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Tres meses</li>
+              <li class="list-group-item">Seis meses</li>
+              <li class="list-group-item">Un año</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Clases presensiales</a>
+              <a href="#" class="card-link">Clases virtuales</a>
+            </div>
+          </div>
+
+        </section>
+
+
+        <section>
+            <h2 class="tit-tienda">Catalogo de instrumentos</h2>
         </section>
 
 
@@ -110,6 +166,12 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 
 </body>
 </html>
